@@ -1,0 +1,715 @@
+{
+   "axes":[
+      {
+         "members":[
+            {
+               "name":"Casualities Count SUM",
+               "full_name":"[Measures].[Casualities Count SUM]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":0,
+               "caption":"Casualities Count SUM",
+               "key":"Casualities Count SUM",
+               "num_children":0,
+               "parent_name":null,
+               "level_name":"MeasuresLevel",
+               "children":[
+
+               ],
+               "ancestors":[
+
+               ]
+            },
+            {
+               "name":"Casualities rate per 100 inhabitants",
+               "full_name":"[Measures].[Casualities rate per 100 inhabitants]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":0,
+               "caption":"Muertes cada 100 habitantes",
+               "key":"Casualities rate per 100 inhabitants",
+               "num_children":0,
+               "parent_name":null,
+               "level_name":"MeasuresLevel",
+               "children":[
+
+               ],
+               "ancestors":[
+
+               ]
+            }
+         ]
+      },
+      {
+         "members":[
+            {
+               "name":"Human immunodeficiency virus [HIV] disease",
+               "full_name":"[CIE 10].[Human immunodeficiency virus [HIV]] disease]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Infecciones por VIH y SIDA",
+               "key":"B20-B24",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Tumors (Neoplasms)",
+               "full_name":"[CIE 10].[Tumors (Neoplasms)]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Tumores (neoplasias)",
+               "key":"C00-D48",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Endocrine, nutritional and metabolic diseases",
+               "full_name":"[CIE 10].[Endocrine, nutritional and metabolic diseases]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Enfermedades endocrinas, nutricionales y metabolicas",
+               "key":"E00-E90",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Diseases of the circulatory system",
+               "full_name":"[CIE 10].[Diseases of the circulatory system]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Enfermedades del sistema circulatorio",
+               "key":"I00-I99",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Diseases of the respiratory system",
+               "full_name":"[CIE 10].[Diseases of the respiratory system]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Enfermedades del sistema respiratorio",
+               "key":"J00-J99",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Diseases of the digestive system",
+               "full_name":"[CIE 10].[Diseases of the digestive system]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Enfermedades del sistema digestivo",
+               "key":"K00-K93",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Transport accidents",
+               "full_name":"[CIE 10].[Transport accidents]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Accidentes de tránsito",
+               "key":"V01-V99",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"External causes of morbidity and mortality",
+               "full_name":"[CIE 10].[External causes of morbidity and mortality]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Causa Externa de mortalidad",
+               "key":"V01-Y98",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Intentional self-harm",
+               "full_name":"[CIE 10].[Intentional self-harm]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"Lesiones autoinfligidas intencionalmente",
+               "key":"X60-X84",
+               "num_children":0,
+               "parent_name":"[CIE 10].[All CIE 10s]",
+               "level_name":"CIE 10",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All CIE 10s",
+                     "full_name":"[CIE 10].[All CIE 10s]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All CIE 10s",
+                     "key":0,
+                     "num_children":9,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "members":[
+            {
+               "name":"2010",
+               "full_name":"[Date].[2010]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"2010",
+               "key":2010,
+               "num_children":0,
+               "parent_name":"[Date].[All Dates]",
+               "level_name":"Year",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All Dates",
+                     "full_name":"[Date].[All Dates]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All Dates",
+                     "key":0,
+                     "num_children":5,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"2011",
+               "full_name":"[Date].[2011]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"2011",
+               "key":2011,
+               "num_children":0,
+               "parent_name":"[Date].[All Dates]",
+               "level_name":"Year",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All Dates",
+                     "full_name":"[Date].[All Dates]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All Dates",
+                     "key":0,
+                     "num_children":5,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"2012",
+               "full_name":"[Date].[2012]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"2012",
+               "key":2012,
+               "num_children":0,
+               "parent_name":"[Date].[All Dates]",
+               "level_name":"Year",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All Dates",
+                     "full_name":"[Date].[All Dates]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All Dates",
+                     "key":0,
+                     "num_children":5,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"2013",
+               "full_name":"[Date].[2013]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"2013",
+               "key":2013,
+               "num_children":0,
+               "parent_name":"[Date].[All Dates]",
+               "level_name":"Year",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All Dates",
+                     "full_name":"[Date].[All Dates]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All Dates",
+                     "key":0,
+                     "num_children":5,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"2014",
+               "full_name":"[Date].[2014]",
+               "all_member?":false,
+               "drillable?":false,
+               "depth":1,
+               "caption":"2014",
+               "key":2014,
+               "num_children":0,
+               "parent_name":"[Date].[All Dates]",
+               "level_name":"Year",
+               "children":[
+
+               ],
+               "ancestors":[
+                  {
+                     "name":"All Dates",
+                     "full_name":"[Date].[All Dates]",
+                     "all_member?":true,
+                     "drillable?":true,
+                     "depth":0,
+                     "caption":"All Dates",
+                     "key":0,
+                     "num_children":5,
+                     "parent_name":null,
+                     "level_name":"(All)",
+                     "children":[
+
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "axis_dimensions":[
+      {
+         "name":"Measures",
+         "caption":"Measures",
+         "type":"measures",
+         "level":"MeasuresLevel",
+         "level_depth":0
+      },
+      {
+         "name":"CIE 10",
+         "caption":"CIE 10",
+         "type":"standard",
+         "level":"CIE 10",
+         "level_depth":1
+      },
+      {
+         "name":"Date",
+         "caption":"Date",
+         "type":"standard",
+         "level":"Year",
+         "level_depth":1
+      }
+   ],
+   "values":[
+      [
+         [
+            435.0,
+            0.024140000141536198
+         ],
+         [
+            24088.0,
+            1.3944733301798502
+         ],
+         [
+            4821.0,
+            0.27404999807477
+         ],
+         [
+            27158.0,
+            1.5335266629854838
+         ],
+         [
+            9993.0,
+            0.6034833317001661
+         ],
+         [
+            7051.0,
+            0.4126633360981941
+         ],
+         [
+            2097.0,
+            0.13654999987532696
+         ],
+         [
+            8385.0,
+            0.5334799985090891
+         ],
+         [
+            1986.0,
+            0.12864333416024845
+         ]
+      ],
+      [
+         [
+            472.0,
+            0.028300000222710273
+         ],
+         [
+            24582.0,
+            1.432640008131663
+         ],
+         [
+            4640.0,
+            0.25414333343505857
+         ],
+         [
+            25744.0,
+            1.4518899997075398
+         ],
+         [
+            9104.0,
+            0.5275600026051204
+         ],
+         [
+            6964.0,
+            0.40333333214124045
+         ],
+         [
+            2113.0,
+            0.1562600012868643
+         ],
+         [
+            8027.0,
+            0.5322333335876465
+         ],
+         [
+            2027.0,
+            0.12407333465913932
+         ]
+      ],
+      [
+         [
+            456.0,
+            0.026610000105574728
+         ],
+         [
+            25421.0,
+            1.4690966626008353
+         ],
+         [
+            4930.0,
+            0.2746066654721896
+         ],
+         [
+            27179.0,
+            1.5533333361148833
+         ],
+         [
+            10118.0,
+            0.5772733320792516
+         ],
+         [
+            7140.0,
+            0.3985333308577538
+         ],
+         [
+            2050.0,
+            0.14466999893387159
+         ],
+         [
+            7561.0,
+            0.49222666571537654
+         ],
+         [
+            1841.0,
+            0.1115866664176186
+         ]
+      ],
+      [
+         [
+            523.0,
+            0.027196667071742318
+         ],
+         [
+            25687.0,
+            1.4404233296712239
+         ],
+         [
+            4876.0,
+            0.2537800004084905
+         ],
+         [
+            27660.0,
+            1.5059133350849152
+         ],
+         [
+            10269.0,
+            0.5614733338356018
+         ],
+         [
+            7349.0,
+            0.42387666255235673
+         ],
+         [
+            2121.0,
+            0.14152999985963105
+         ],
+         [
+            7617.0,
+            0.4793400004506111
+         ],
+         [
+            1738.0,
+            0.10222000032663345
+         ]
+      ],
+      [
+         [
+            506.0,
+            0.029523333239679535
+         ],
+         [
+            26042.0,
+            1.4688133358955384
+         ],
+         [
+            5188.0,
+            0.2717100024223328
+         ],
+         [
+            28060.0,
+            1.4985533197720846
+         ],
+         [
+            10447.0,
+            0.5502000028888384
+         ],
+         [
+            7469.0,
+            0.41435332894325255
+         ],
+         [
+            1982.0,
+            0.12311000047872464
+         ],
+         [
+            7730.0,
+            0.4678499991695086
+         ],
+         [
+            1789.0,
+            0.10371666653081775
+         ]
+      ]
+   ]
+}

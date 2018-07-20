@@ -12,12 +12,26 @@
   <!--script P5.JS-->
   <script>
   function setup(){
-    var w = windowWidth-10, h = 380;
+    var w = windowWidth-35, h = 380;
     var canvas = createCanvas(w,h);
+    background(240);
+    textSize(42);
+    textAlign(CENTER);
+    text('Vida', 500, 150);
+     col:(0);
   }
   function draw(){
-    background(225);
-  }    
+  ellipse( mouseX, mouseY, 80, 80);
+  noStroke();
+  color('rgb(255, 255, 255, 0.5)')
+     }   
+  function mousePressed(){
+    background(240);
+    textSize(42);
+    textAlign(CENTER);
+    text('Cadaver', 500, 150);
+    col:(0);
+  }   
   </script>
   </body>
 </html>
